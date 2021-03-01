@@ -1,0 +1,1 @@
+There are: 14 distinct days that appear in the monitoring data.

@@ -1,0 +1,14 @@
+332 has appeared {Leaving	=1, Breakfast	=1, Sleeping=1, Snack	=1, Grooming	=2, Showering	=1, Spare_Time/TV=4, Toileting	=3, Lunch=1}
+333 has appeared {Leaving	=1, Breakfast	=1, Sleeping=1, Snack	=1, Grooming	=3, Showering	=1, Spare_Time/TV=6, Toileting	=4, Lunch=1}
+334 has appeared {Leaving	=1, Breakfast	=1, Sleeping=1, Snack	=2, Grooming	=2, Showering	=1, Spare_Time/TV=8, Toileting	=6, Lunch=1}
+335 has appeared {Leaving	=1, Breakfast	=1, Sleeping=1, Grooming	=3, Showering	=1, Spare_Time/TV=6, Toileting	=2, Lunch=1}
+336 has appeared {Breakfast	=1, Sleeping=1, Snack	=1, Grooming	=4, Showering	=1, Spare_Time/TV=7, Toileting	=3, Lunch=1}
+337 has appeared {Leaving	=1, Breakfast	=1, Sleeping=1, Grooming	=3, Showering	=1, Spare_Time/TV=4, Toileting	=2}
+338 has appeared {Leaving	=1, Breakfast	=1, Sleeping=1, Snack	=2, Grooming	=2, Showering	=1, Spare_Time/TV=6, Toileting	=4}
+339 has appeared {Leaving	=2, Breakfast	=1, Sleeping=1, Snack	=1, Grooming	=6, Showering	=1, Spare_Time/TV=7, Toileting	=5, Lunch=1}
+340 has appeared {Breakfast	=1, Sleeping=1, Snack	=1, Grooming	=4, Showering	=1, Spare_Time/TV=5, Toileting	=3, Lunch=1}
+341 has appeared {Leaving	=1, Breakfast	=1, Sleeping=1, Snack	=2, Grooming	=5, Showering	=1, Spare_Time/TV=8, Toileting	=6, Lunch=1}
+342 has appeared {Leaving	=1, Breakfast	=1, Sleeping=1, Grooming	=5, Showering	=1, Spare_Time/TV=4, Toileting	=1}
+343 has appeared {Leaving	=2, Breakfast	=1, Sleeping=1, Grooming	=5, Showering	=1, Spare_Time/TV=6, Toileting	=2}
+344 has appeared {Leaving	=2, Breakfast	=1, Sleeping=1, Grooming	=4, Showering	=1, Spare_Time/TV=3, Toileting	=1}
+345 has appeared {Breakfast	=1, Sleeping=1, Grooming	=3, Showering	=1, Spare_Time/TV=3, Toileting	=2, Lunch=1}

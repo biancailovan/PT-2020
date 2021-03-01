@@ -1,0 +1,9 @@
+Leaving	 has a duration of 27 hours and 1664 minutes
+Breakfast	 has a duration of 2 hours and 178 minutes
+Sleeping has a duration of 131 hours and 7863 minutes
+Snack	 has a duration of 0 hours and 6 minutes
+Grooming	 has a duration of 2 hours and 160 minutes
+Showering	 has a duration of 1 hours and 94 minutes
+Spare_Time/TV has a duration of 142 hours and 8548 minutes
+Toileting	 has a duration of 2 hours and 140 minutes
+Lunch has a duration of 5 hours and 313 minutes
