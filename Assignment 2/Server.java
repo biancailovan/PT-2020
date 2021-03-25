@@ -120,7 +120,6 @@ public class Server implements Runnable{
 			/*take next client from queue*/
 			/*stop the thread*/
 			/*decrement the waitingPeriod*/
-			//BlockingQueue<Client> c =this.getClients();
 			if(clients.isEmpty())/*daca coada de clienti e goala sleep pt 1000s*/
 				try {
 					Thread.sleep(1000);
@@ -134,8 +133,6 @@ public class Server implements Runnable{
 					this.closed=true;
 					clients.remove(c);
 					c=null;
-					//removeClient(c);
-					//decrementClients();
 				}catch(InterruptedException e1) {
 					e1.printStackTrace();
 				}
