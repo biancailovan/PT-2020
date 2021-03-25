@@ -88,40 +88,7 @@ public class MonitoredData {
 	public Duration getDuration() {
 		return Duration.between(start_time, end_time);
 		
-	}
-	
-	/**
-	 * @param args
-	 * @throws IOException
-	 */
-	/*public static void main(String[] args) throws IOException {
-		MonitoredData md = new MonitoredData(getStart_time(), getEnd_time(), getActivity_label());
-		SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-		List<MonitoredData> objects = new ArrayList<>(); 
-		
-		Tasks task2 = new Tasks();
-		String file = "Activities.txt";
-		ArrayList<MonitoredData> moniData = new ArrayList<MonitoredData>();
-		//md.readFile();
-		//moniData = task2.createListOfObjects();
-		//task2.distinctDays(moniData);
-		
-
-		try (Stream<String> stream = Files.lines(Paths.get("Activities.txt"),Charset.defaultCharset())) {
-			PrintWriter printWriter = new PrintWriter("Task_1.txt");
-            stream.forEach(System.out::println);
-         
-            md.readFile();
-            moniData = md.readFile();
-            md.getListOfObj();
-            md.setListOfObj(moniData);
-            moniData = task2.createListOfObjects();
- 
- 
-		}		
-		
-	}*/
-	
+	}	
 	
 	
 }
