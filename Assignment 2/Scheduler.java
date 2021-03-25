@@ -19,15 +19,6 @@ public class Scheduler {
 		this.maxClientsPerServer = maxClientsPerServer;
 	}
 	
-	/*public void changeStrategy(SelectionPolicy policy) {
-		if(policy==SelectionPolicy.SHORTEST_QUEUE) {
-			strategy = new ConcreteStrategyQueue();
-		}
-		
-		if(policy==SelectionPolicy.SHORTEST_TIME) {
-			strategy = new ConcreteStrategyTime();
-		}
-	}*/
 
 	public ArrayList<Server> getServers() {
 		return servers;
@@ -58,23 +49,6 @@ public class Scheduler {
 		servers.add(server);
 	}
 	
-	/*public void processClient ()  {
-		int totalClients=0;
-        Client client;
-        client = clients.peek();
-        totalClients ++;
-
-        System.out.println("--PROCESSING-- " + client.getId() + " having Service Time " + client.getProcessingTime() + " seconds");
-
-        try {
-            TimeUnit.SECONDS.sleep(client.getProcessingTime());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        clients.remove();
-        System.out.println("--EXIT-- " + client.getId() + " has finished and quits ");
-
-    }*/
 	
 	 public int getServiceTimeOfQueue() {
 	        int processTime = 0;
