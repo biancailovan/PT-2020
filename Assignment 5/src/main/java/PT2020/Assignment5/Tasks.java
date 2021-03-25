@@ -30,8 +30,6 @@ public class Tasks {
 			listOfActivities = stream.map(line->line.split("\t\t", -2))
 									      .map(a -> new MonitoredData(a[0], a[1], a[2]))
 	                                      .collect(Collectors.toList());
-	          //.forEach(printWriter::println);	
-		      //.forEachOrdered(printWriter::println);
 			System.out.println("The file contains: ");
 			listOfActivities.forEach(System.out::println);
 		
@@ -43,7 +41,6 @@ public class Tasks {
 	}
 		
 	public static void task_1() {
-		//this.listOfActivities = new ArrayList<MonitoredData>();
 		try {
 			FileWriter fileWriter = new FileWriter("Task_1.txt");
 			for(MonitoredData moniData: (ArrayList<MonitoredData>)listOfActivities) {
@@ -221,7 +218,6 @@ public class Tasks {
 	}
 	
 	public static void task_5() {
-		//this.listOfActivities = new ArrayList<MonitoredData>();
 		System.out.println("\nTASK 5: ");
 		try {
 			FileWriter fileWriter = new FileWriter("Task_5.txt");
